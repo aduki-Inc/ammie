@@ -1,0 +1,139 @@
+/* --------------------------------------------------------------------------
+ * BY    : aduki, Inc  - software solutions
+ *  
+ * file           : responsive.css
+ * Version        : 1.0.1
+ * Author         : foundstrap - team
+ * Author URI     : http://foundstrap.net
+ *
+ * aduki,Inc. Copyright 2021. All Rights Reserved.
+ * -------------------------------------------------------------------------- */
+/*  -------------------------------------------------------------------------- 
+    [table of contents]
+    1. extra large screen
+    2. large screen
+    3. medium screen
+    4. small screen
+    5. notebook 
+    6. tablet landscape
+    7. tablet portrait 
+    8. mobile landscape 
+    9. mobile portrait 
+    10.specified device
+    - iphone 5 Portrait
+    - iphone 6 Portrait
+   -------------------------------------------------------------------------- */
+/* [extra large screen] */
+@media screen and (max-width: 1200px) {
+  /* your responsive style here */
+}
+/* [large screen] */
+@media screen and (max-width: 992px) {
+  /* your responsive style here */
+}
+/* [medium screen] */
+@media screen and (max-width: 768px) {
+
+
+
+/* [small screen] */
+@media screen and (max-width: 576px) {
+  .footer-bottom .copyright,
+  #footer .social-icon {
+    float: none;
+  }
+
+  #footer .social-icon {
+    display: block;
+    margin: 0 auto;
+  }
+
+  
+  #footer {
+    padding-top: 40px;
+  }
+
+  .footer-bottom {
+    margin-top: 40px;
+  }
+}
+/* [notebook] */
+@media only screen and (max-width: 1280px) {
+  
+  /* your responsive style here */
+}
+/* [tablet landscape] */
+@media only screen and (max-width: 1024px) {
+
+
+}
+/* [tablet portrait] */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .no-margin-mdp {
+    margin: 0 !important;
+  }
+
+  .no-padding-mdp {
+    padding: 0 !important;
+  }
+}
+/* [mobile landscape] */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .slideshow {
+    height: 380px !important;
+  }
+}
+/* [mobile portrait] */
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+
+  .gallery-filter li {
+    margin-bottom: 10px;
+  }
+
+  .img-left,
+  .img-right {
+    float: none;
+    margin: 0 0 20px;
+    width: 100%;
+  }
+
+  .feature.icon-left .feature-content {
+    float: left;
+  }
+    width: 100%;
+  }
+}
+/* iPhone 5 Portrait */
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+  .slideshow .btn + .btn {
+    margin-left: 0;
+  }
+}
+/* iPhone 6 Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+  .slideshow {
+    height: 550px !important;
+  }
+
+  .header-social {
+    display: none;
+  }
+
+  .header-info {
+    float: none;
+    text-align: center;
+  }
+  .header-info li:last-child {
+    padding-right: 0;
+  }
+
+  .section.section-float {
+    margin-top: 0;
+    padding-top: 60px !important;
+  }
+
+  .cta-bottom-container h2 {
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+}
