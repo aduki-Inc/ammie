@@ -1,0 +1,38 @@
+@mixin clearfix {
+	*zoom: 1;
+
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+
+// rem calcluator
+@function toRem($size) {
+	$remSize: $size / 16px;
+	@return $remSize * 1rem;
+}
+
+@mixin border-radius($radius : toRem(4px)) {
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin transition($val : .25s) {
+	transition: all $val ease-in-out;
+	-moz-transition: all $val ease-in-out;
+	-webkit-transition: all $val ease-in-out;
+}
+
+// CSS3 calc() function to perform calculations
+@mixin calc($property, $expression) {
+	#{$property}: -webkit-calc(#{$expression});
+	#{$property}: -moz-calc(#{$expression});
+	#{$property}: calc(#{$expression});
+}
