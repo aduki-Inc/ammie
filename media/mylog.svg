@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="143.456" height="147.367" viewBox="0 0 143.456 147.367">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0606fb;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 104px;
+        font-family: TwCenMT-Bold, Tw Cen MT;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        filter: url(#a);
+      }
+    </style>
+    <filter id="a" x="40.621" y="9.17" width="73" height="131" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_10" data-name="Group 10" transform="translate(-191.379 -477.83)">
+    <path id="Path_5218" data-name="Path 5218" class="cls-1" d="M161.571,247.066s12.675-150.392,95.494-62.7c29.575,26.2,22.8,42.825,11.448,50.4C196.241,191.826,161.571,247.066,161.571,247.066Z" transform="translate(-32.24 595.278) rotate(-51)"/>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 191.38, 477.83)">
+      <text id="a-2" data-name="a" class="cls-2" transform="translate(49.62 104.17)"><tspan x="0" y="0">a</tspan></text>
+    </g>
+  </g>
+</svg>
