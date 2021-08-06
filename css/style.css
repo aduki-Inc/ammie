@@ -196,16 +196,16 @@
        footer
        ========================================================================== */
 #footer {
-  background: linear-gradient(to right, rgb(24, 5, 163), rgb(116, 4, 124));
+  background:  rgb(0, 0, 0);
   display: block;
-  color: #717173;
+  color: #b4b4b8;
   font-size: 13px;
   line-height: 24px;
   padding-top: 80px;
 }
 #footer strong,
 #footer a {
-  color: #888888;
+  color: #dadada;
 }
 #footer .social-icon {
   font-size: 16px;
