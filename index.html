@@ -39,17 +39,7 @@
   
     <!-- Javascript-->
      <script src="themekit/scripts/jquery.min.js"></script>
-    <script src="themekit/scripts/main.js"></script>
-    <script type="text/javascript" src="add_to_homescreen/src/addtohomescreen.js"></script>
-    <script>
-        if(
-            (("standalone" in window.navigator) && !window.navigator.standalone)
-            ||
-            (!window.matchMedia('(display-mode: standalone)'.matches)
-         ){
-            addToHomescreen();
-          }
-     </script>
+     <script src="themekit/scripts/main.js"></script>
         
 </head>
 
@@ -353,7 +343,16 @@
     </footer>
 
     <!--javascript configuration -->
-    
+      <script type="text/javascript" src="add_to_homescreen/src/addtohomescreen.js"></script>
+    <script>
+        if(
+            (("standalone" in window.navigator) && !window.navigator.standalone)
+            ||
+            (!window.matchMedia('(display-mode: standalone)'.matches)
+         ){
+            addToHomescreen();
+          }
+     </script>
     <script src="js/config.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
